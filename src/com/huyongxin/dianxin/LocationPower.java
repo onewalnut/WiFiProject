@@ -99,7 +99,8 @@ public class LocationPower {
 		}*/
 
         /*
-         * w的计算：计算所有相似点与待测试点的欧式距离的和 / 每个相似点与待测试点的欧式距离*/
+         * w的计算：计算所有相似点与待测试点的欧式距离的和 / 每个相似点与待
+         * 测试点的欧式距离*/
         double W = 0.0;
         for(int i = 0; i < Main.SIMILARITYSIZE; i ++) {
             try {
